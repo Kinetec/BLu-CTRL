@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0A35C31ADDC2B1008D880C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0A35C21ADDC2B1008D880C /* Foundation.framework */; };
 		0B4F23FE1ADDB43D0080DCCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4F23FD1ADDB43D0080DCCD /* main.m */; };
 		0B4F24011ADDB43D0080DCCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4F24001ADDB43D0080DCCD /* AppDelegate.m */; };
 		0B4F24041ADDB43D0080DCCD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4F24031ADDB43D0080DCCD /* FirstViewController.m */; };
@@ -15,6 +16,19 @@
 		0B4F240C1ADDB43D0080DCCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B4F240B1ADDB43D0080DCCD /* Images.xcassets */; };
 		0B4F240F1ADDB43D0080DCCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B4F240D1ADDB43D0080DCCD /* LaunchScreen.xib */; };
 		0B4F241B1ADDB43D0080DCCD /* BLu_CTRLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4F241A1ADDB43D0080DCCD /* BLu_CTRLTests.m */; };
+		0B4F24251ADDB44B0080DCCD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4F24241ADDB44B0080DCCD /* CoreMotion.framework */; };
+		0B4F24271ADDB4560080DCCD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4F24261ADDB4560080DCCD /* CoreBluetooth.framework */; };
+		0B4F24291ADDB45D0080DCCD /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4F24281ADDB45D0080DCCD /* CoreMIDI.framework */; };
+		0B4F242B1ADDB4670080DCCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4F242A1ADDB4670080DCCD /* UIKit.framework */; };
+		0B688B161ADDE80D00C3FF95 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B688B151ADDE80D00C3FF95 /* CoreAudioKit.framework */; };
+		0B75DE161AE149CF000003F2 /* arrowsarrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B75DE111AE149CF000003F2 /* arrowsarrows.png */; };
+		0B75DE171AE149CF000003F2 /* BLüHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B75DE121AE149CF000003F2 /* BLüHead.png */; };
+		0B75DE181AE149CF000003F2 /* yawyawyaw.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B75DE131AE149CF000003F2 /* yawyawyaw.png */; };
+		0B75DE191AE149CF000003F2 /* BLüNUARL_CTRL_Launch_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B75DE141AE149CF000003F2 /* BLüNUARL_CTRL_Launch_2.png */; };
+		0B75DE1A1AE149CF000003F2 /* BLüNUARL_CTRL2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B75DE151AE149CF000003F2 /* BLüNUARL_CTRL2.png */; };
+		9D04B4851AE0719D0087DFE7 /* MIDIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04B4841AE0719D0087DFE7 /* MIDIController.m */; };
+		9D54FE521AE06DDB00DA516B /* MIKMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D54FE4F1AE06DCB00DA516B /* MIKMIDI.framework */; };
+		9D54FE571AE06F2D00DA516B /* MIKMIDI.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 9D54FE4F1AE06DCB00DA516B /* MIKMIDI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,9 +39,52 @@
 			remoteGlobalIDString = 0B4F23F71ADDB43D0080DCCD;
 			remoteInfo = "BLüCTRL";
 		};
+		9D54FE4C1AE06DCB00DA516B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D54FE471AE06DCB00DA516B /* MIKMIDI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D74EEA517A7129300BEE89F;
+			remoteInfo = MIKMIDI;
+		};
+		9D54FE4E1AE06DCB00DA516B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D54FE471AE06DCB00DA516B /* MIKMIDI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DAF8B061A7AFF1100F46528;
+			remoteInfo = "MIKMIDI-iOS";
+		};
+		9D54FE501AE06DD300DA516B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D54FE471AE06DCB00DA516B /* MIKMIDI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DAF8B051A7AFF1100F46528;
+			remoteInfo = "MIKMIDI-iOS";
+		};
+		9D54FE551AE06F2400DA516B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D54FE471AE06DCB00DA516B /* MIKMIDI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D4DF13A1AAB57430065F004;
+			remoteInfo = "MIKMIDI Tests";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9D54FE531AE06F2400DA516B /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9D54FE571AE06F2D00DA516B /* MIKMIDI.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0B0A35C21ADDC2B1008D880C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0B4F23F81ADDB43D0080DCCD /* BLüCTRL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLüCTRL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4F23FC1ADDB43D0080DCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B4F23FD1ADDB43D0080DCCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +100,22 @@
 		0B4F24141ADDB43D0080DCCD /* BLüCTRLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLüCTRLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4F24191ADDB43D0080DCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B4F241A1ADDB43D0080DCCD /* BLu_CTRLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLu_CTRLTests.m; sourceTree = "<group>"; };
+		0B4F24241ADDB44B0080DCCD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0B4F24261ADDB4560080DCCD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0B4F24281ADDB45D0080DCCD /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		0B4F242A1ADDB4670080DCCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B4F39B51AE0557100450AC5 /* BLüCTRL-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLüCTRL-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B4F39BE1AE056C300450AC5 /* BLüCTRL-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLüCTRL-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B4F39BF1AE0570B00450AC5 /* BLüCTRLTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLüCTRLTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B688B151ADDE80D00C3FF95 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		0B75DE111AE149CF000003F2 /* arrowsarrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowsarrows.png; sourceTree = "<group>"; };
+		0B75DE121AE149CF000003F2 /* BLüHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLüHead.png"; sourceTree = "<group>"; };
+		0B75DE131AE149CF000003F2 /* yawyawyaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yawyawyaw.png; sourceTree = "<group>"; };
+		0B75DE141AE149CF000003F2 /* BLüNUARL_CTRL_Launch_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLüNUARL_CTRL_Launch_2.png"; sourceTree = "<group>"; };
+		0B75DE151AE149CF000003F2 /* BLüNUARL_CTRL2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLüNUARL_CTRL2.png"; sourceTree = "<group>"; };
+		9D04B4831AE0719D0087DFE7 /* MIDIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIController.h; sourceTree = "<group>"; };
+		9D04B4841AE0719D0087DFE7 /* MIDIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIController.m; sourceTree = "<group>"; };
+		9D54FE471AE06DCB00DA516B /* MIKMIDI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MIKMIDI.xcodeproj; path = MIKMIDI/Framework/MIKMIDI.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +123,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D54FE521AE06DDB00DA516B /* MIKMIDI.framework in Frameworks */,
+				0B688B161ADDE80D00C3FF95 /* CoreAudioKit.framework in Frameworks */,
+				0B0A35C31ADDC2B1008D880C /* Foundation.framework in Frameworks */,
+				0B4F242B1ADDB4670080DCCD /* UIKit.framework in Frameworks */,
+				0B4F24291ADDB45D0080DCCD /* CoreMIDI.framework in Frameworks */,
+				0B4F24271ADDB4560080DCCD /* CoreBluetooth.framework in Frameworks */,
+				0B4F24251ADDB44B0080DCCD /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,9 +146,17 @@
 		0B4F23EF1ADDB43D0080DCCD = {
 			isa = PBXGroup;
 			children = (
+				0B688B151ADDE80D00C3FF95 /* CoreAudioKit.framework */,
+				0B0A35C21ADDC2B1008D880C /* Foundation.framework */,
+				0B4F242A1ADDB4670080DCCD /* UIKit.framework */,
+				0B4F24281ADDB45D0080DCCD /* CoreMIDI.framework */,
+				0B4F24261ADDB4560080DCCD /* CoreBluetooth.framework */,
+				0B4F24241ADDB44B0080DCCD /* CoreMotion.framework */,
 				0B4F23FA1ADDB43D0080DCCD /* BLüCTRL */,
 				0B4F24171ADDB43D0080DCCD /* BLüCTRLTests */,
 				0B4F23F91ADDB43D0080DCCD /* Products */,
+				0B4F39B51AE0557100450AC5 /* BLüCTRL-Bridging-Header.h */,
+				9D54FE471AE06DCB00DA516B /* MIKMIDI.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,12 +172,15 @@
 		0B4F23FA1ADDB43D0080DCCD /* BLüCTRL */ = {
 			isa = PBXGroup;
 			children = (
+				0B4F39BE1AE056C300450AC5 /* BLüCTRL-Bridging-Header.h */,
 				0B4F23FF1ADDB43D0080DCCD /* AppDelegate.h */,
 				0B4F24001ADDB43D0080DCCD /* AppDelegate.m */,
 				0B4F24021ADDB43D0080DCCD /* FirstViewController.h */,
 				0B4F24031ADDB43D0080DCCD /* FirstViewController.m */,
 				0B4F24051ADDB43D0080DCCD /* SecondViewController.h */,
 				0B4F24061ADDB43D0080DCCD /* SecondViewController.m */,
+				9D04B4831AE0719D0087DFE7 /* MIDIController.h */,
+				9D04B4841AE0719D0087DFE7 /* MIDIController.m */,
 				0B4F24081ADDB43D0080DCCD /* Main.storyboard */,
 				0B4F240B1ADDB43D0080DCCD /* Images.xcassets */,
 				0B4F240D1ADDB43D0080DCCD /* LaunchScreen.xib */,
@@ -101,6 +192,11 @@
 		0B4F23FB1ADDB43D0080DCCD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0B75DE111AE149CF000003F2 /* arrowsarrows.png */,
+				0B75DE121AE149CF000003F2 /* BLüHead.png */,
+				0B75DE131AE149CF000003F2 /* yawyawyaw.png */,
+				0B75DE141AE149CF000003F2 /* BLüNUARL_CTRL_Launch_2.png */,
+				0B75DE151AE149CF000003F2 /* BLüNUARL_CTRL2.png */,
 				0B4F23FC1ADDB43D0080DCCD /* Info.plist */,
 				0B4F23FD1ADDB43D0080DCCD /* main.m */,
 			);
@@ -112,6 +208,7 @@
 			children = (
 				0B4F241A1ADDB43D0080DCCD /* BLu_CTRLTests.m */,
 				0B4F24181ADDB43D0080DCCD /* Supporting Files */,
+				0B4F39BF1AE0570B00450AC5 /* BLüCTRLTests-Bridging-Header.h */,
 			);
 			path = "BLüCTRLTests";
 			sourceTree = "<group>";
@@ -124,6 +221,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9D54FE481AE06DCB00DA516B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D54FE4D1AE06DCB00DA516B /* MIKMIDI.framework */,
+				9D54FE4F1AE06DCB00DA516B /* MIKMIDI.framework */,
+				9D54FE561AE06F2400DA516B /* MIKMIDI Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,10 +241,12 @@
 				0B4F23F41ADDB43D0080DCCD /* Sources */,
 				0B4F23F51ADDB43D0080DCCD /* Frameworks */,
 				0B4F23F61ADDB43D0080DCCD /* Resources */,
+				9D54FE531AE06F2400DA516B /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9D54FE511AE06DD300DA516B /* PBXTargetDependency */,
 			);
 			name = "BLüCTRL";
 			productName = "BLüCTRL";
@@ -191,6 +300,12 @@
 			mainGroup = 0B4F23EF1ADDB43D0080DCCD;
 			productRefGroup = 0B4F23F91ADDB43D0080DCCD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9D54FE481AE06DCB00DA516B /* Products */;
+					ProjectRef = 9D54FE471AE06DCB00DA516B /* MIKMIDI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0B4F23F71ADDB43D0080DCCD /* BLüCTRL */,
@@ -199,14 +314,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		9D54FE4D1AE06DCB00DA516B /* MIKMIDI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MIKMIDI.framework;
+			remoteRef = 9D54FE4C1AE06DCB00DA516B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D54FE4F1AE06DCB00DA516B /* MIKMIDI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MIKMIDI.framework;
+			remoteRef = 9D54FE4E1AE06DCB00DA516B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D54FE561AE06F2400DA516B /* MIKMIDI Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "MIKMIDI Tests.xctest";
+			remoteRef = 9D54FE551AE06F2400DA516B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		0B4F23F61ADDB43D0080DCCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B75DE171AE149CF000003F2 /* BLüHead.png in Resources */,
+				0B75DE1A1AE149CF000003F2 /* BLüNUARL_CTRL2.png in Resources */,
+				0B75DE181AE149CF000003F2 /* yawyawyaw.png in Resources */,
+				0B75DE191AE149CF000003F2 /* BLüNUARL_CTRL_Launch_2.png in Resources */,
 				0B4F240A1ADDB43D0080DCCD /* Main.storyboard in Resources */,
 				0B4F240F1ADDB43D0080DCCD /* LaunchScreen.xib in Resources */,
 				0B4F240C1ADDB43D0080DCCD /* Images.xcassets in Resources */,
+				0B75DE161AE149CF000003F2 /* arrowsarrows.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +370,7 @@
 			files = (
 				0B4F24071ADDB43D0080DCCD /* SecondViewController.m in Sources */,
 				0B4F24011ADDB43D0080DCCD /* AppDelegate.m in Sources */,
+				9D04B4851AE0719D0087DFE7 /* MIDIController.m in Sources */,
 				0B4F24041ADDB43D0080DCCD /* FirstViewController.m in Sources */,
 				0B4F23FE1ADDB43D0080DCCD /* main.m in Sources */,
 			);
@@ -246,6 +391,11 @@
 			isa = PBXTargetDependency;
 			target = 0B4F23F71ADDB43D0080DCCD /* BLüCTRL */;
 			targetProxy = 0B4F24151ADDB43D0080DCCD /* PBXContainerItemProxy */;
+		};
+		9D54FE511AE06DD300DA516B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MIKMIDI-iOS";
+			targetProxy = 9D54FE501AE06DD300DA516B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -349,9 +499,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "BLüCTRL/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BLüCTRL-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -359,9 +512,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "BLüCTRL/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BLüCTRL-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -369,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -380,6 +536,8 @@
 				INFOPLIST_FILE = "BLüCTRLTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BLüCTRLTests/BLüCTRLTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLüCTRL.app/BLüCTRL";
 			};
 			name = Debug;
@@ -388,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -395,6 +554,7 @@
 				INFOPLIST_FILE = "BLüCTRLTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BLüCTRLTests/BLüCTRLTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLüCTRL.app/BLüCTRL";
 			};
 			name = Release;
@@ -418,6 +578,7 @@
 				0B4F24201ADDB43D0080DCCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B4F24211ADDB43D0080DCCD /* Build configuration list for PBXNativeTarget "BLüCTRLTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +587,7 @@
 				0B4F24231ADDB43D0080DCCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

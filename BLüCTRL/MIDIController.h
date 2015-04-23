@@ -1,9 +1,8 @@
 //
-//  SecondViewController.h
+//  MIDIController.h
 //  BLüCTRL
 //
-//  Created by MICHAEL RICCA on 4/14/15.
-//  NYU ITP TISCH SCHOOL OF THE ARTS
+//  MIKMIDI Created by Andrew Madsen.  Michael Ricca on 4/16/15.
 //  Copyright (c) 2015 KInetec Media. All rights reserved.
 //
 
@@ -14,10 +13,10 @@
 #import <CoreAudioKit/CoreAudioKit.h>
 #import <Foundation/Foundation.h>
 
-NS_CLASS_AVAILABLE_IOS(8_0)
+@interface MIDIController : NSObject
 
-@interface SecondViewController : UIViewController
++ (instancetype)sharedMIDIController;
 
+- (void)sendPitch:(double)pitch roll:(double)roll yaw:(double)yaw;
 
 @end
-

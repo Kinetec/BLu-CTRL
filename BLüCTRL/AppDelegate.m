@@ -2,11 +2,26 @@
 //  AppDelegate.m
 //  BLüCTRL
 //
-//  Created by KI on 4/14/15.
+//  Created by MICHAEL RICCA on 4/14/15.
+//  NYU ITP TISCH SCHOOL OF THE ARTS
 //  Copyright (c) 2015 KInetec Media. All rights reserved.
 //
-
 #import "AppDelegate.h"
+#import "MIDIController.h"
+#import <MIKMIDI/MIKMIDI.h>
+#import <UIKit/UIKit.h>
+#import <CoreMIDI/CoreMIDI.h>
+#import <CoreMotion/CoreMotion.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+#import <CoreAudioKit/CoreAudioKit.h>
+#import <Foundation/Foundation.h>
+@import CoreMotion;
+@import CoreMIDI;
+@import CoreBluetooth;
+@import CoreAudioKit;
+@import UIKit;
+@import Foundation;
+
 
 @interface AppDelegate ()
 
@@ -17,6 +32,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+       sleep(5);
     return YES;
 }
 

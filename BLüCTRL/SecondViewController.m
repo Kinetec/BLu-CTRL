@@ -25,6 +25,10 @@
 
 @interface SecondViewController ()
 
+@property (weak, nonatomic) IBOutlet UISwitch *toggle2;
+@property (weak, nonatomic) IBOutlet UISwitch *toggle3;
+@property (weak, nonatomic) IBOutlet UISwitch *toggle1;
+
 @end
 
 @implementation SecondViewController
@@ -66,5 +70,31 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Toggle1:(id)sender {
+    bool toggle1status;
+    bool toggle2status;
+    bool toggle3status;
+    if(self.toggle1.on){
+        toggle1status = true;
+    }else{
+
+        toggle1status = false;
+    }
+    if(self.toggle2.on){
+        toggle2status = true;
+    }else{
+        
+        toggle2status = false;
+    }
+    if(self.toggle3.on){
+        toggle3status = true;
+    }else{
+        
+        toggle3status = false;
+    }
+    NSDictionary *userInfo = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:toggle1status],@"toggle1", [NSNumber numberWithBool:toggle2status],@"toggle2", [NSNumber numberWithBool:toggle3status],@"toggle3", nil];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"ToggleChanged" object:nil userInfo:userInfo];
+    
+}
 
 @end

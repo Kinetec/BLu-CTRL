@@ -7,6 +7,8 @@
 //  Copyright (c) 2015 KInetec Media. All rights reserved.
 //
 
+#import "MIDIController.h"
+#import <MIKMIDI/MIKMIDI.h>
 #import <UIKit/UIKit.h>
 #import <CoreMIDI/CoreMIDI.h>
 #import <CoreMotion/CoreMotion.h>

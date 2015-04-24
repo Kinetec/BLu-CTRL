@@ -39,6 +39,9 @@
 @end
 
 @implementation FirstViewController
+bool pitchon = true;
+bool rollon = true;
+bool yawon = true;
 
 - (CMMotionManager *)motionManager
 {
@@ -53,22 +56,76 @@
 {
     [super viewDidLoad];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(receiveEvent:)
+                                                 name:@"ToggleChanged"
+                                               object:nil];
+    
+    
+    
     [self.motionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue currentQueue] withHandler:^(CMDeviceMotion *motion, NSError *error) {
-		double pitch = motion.attitude.roll * kRadToDeg;
-		double roll = motion.attitude.pitch * kRadToDeg;
-		double yaw = motion.attitude.yaw * kRadToDeg;
+        double pitch;
+        double roll;
+        double yaw;
+        
+        if (pitchon == true) {
+            pitch = motion.attitude.roll * kRadToDeg;
+        }
+        else {
+            pitch = -365;
+        }
+        if (rollon == true) {
+            roll = motion.attitude.pitch * kRadToDeg;
+        }
+        else {
+            roll = -365;
+        }
+        if (yawon == true) {
+            yaw = motion.attitude.yaw * kRadToDeg;
+        }
+        else {
+            yaw = -365;
+        }
+        
         self.pitchLabel.text = [NSString stringWithFormat:@"%.3gº", pitch];
         self.rollLabel.text = [NSString stringWithFormat:@"%.3gº", roll];
         self.yawLabel.text = [NSString stringWithFormat:@"%.3gº", yaw];
 		[[MIDIController sharedMIDIController] sendPitch:pitch roll:roll yaw:yaw];
     }];
     
-    [self.motionManager startGyroUpdatesToQueue:[NSOperationQueue currentQueue] withHandler:^(CMGyroData *gyroData, NSError *error) {
-        self.rotationXLabel.text = [NSString stringWithFormat:@"%fdouble", gyroData.rotationRate.x];
-        self.rotationYLabel.text = [NSString stringWithFormat:@"%fdouble", gyroData.rotationRate.y];
-        self.rotationZLabel.text = [NSString stringWithFormat:@"%fdouble", gyroData.rotationRate.z];
-    }];
+    
 }
+
+- (void)receiveEvent:(NSNotification *)notification {
+    bool toggle1status = [[[notification userInfo] valueForKey:@"toggle1"]boolValue];
+    bool toggle2status = [[[notification userInfo] valueForKey:@"toggle2"]boolValue];
+    bool toggle3status = [[[notification userInfo] valueForKey:@"toggle3"]boolValue];
+
+//    NSLog([NSString stringWithFormat:@"received, %i",toggle1status]);
+    if (toggle1status == 0) {
+        pitchon = false;
+    }
+    else
+    {
+        pitchon = true;
+    }
+    if (toggle2status == 0) {
+        rollon = false;
+    }
+    else
+    {
+        rollon = true;
+    }
+    if (toggle3status == 0) {
+        yawon = false;
+    }
+    else
+    {
+        yawon = true;
+    }
+}
+
+
 
 //- (void)viewWillDisappear:(BOOL)animated
 //{

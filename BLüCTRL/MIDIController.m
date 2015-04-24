@@ -76,22 +76,25 @@
 {
 	if (!self.MIDIDevice) return;
     
-   // MIKMIDIControlChangeCommand *pitchCommand = [[MIKMMIDIControlChangeCommand alloc] init];
+    //MIKMIDIControlChangeCommand *pitchCommand = [[MIKMIDIControlChangeCommand alloc] init];
     
 	MIKMutableMIDIControlChangeCommand *pitchCommand = [[MIKMutableMIDIControlChangeCommand alloc] init];
 	pitchCommand.channel = 10; // Or whatever channel you need
 	pitchCommand.controllerNumber = 1;
 	pitchCommand.controllerValue = (pitch + 180.0) * 127.0 / 360.0;
+    sleep(0.1);
 	
 	MIKMutableMIDIControlChangeCommand *rollCommand = [[MIKMutableMIDIControlChangeCommand alloc] init];
 	rollCommand.channel = 10; // Or whatever channel you need
 	rollCommand.controllerNumber = 2;
 	rollCommand.controllerValue = (roll + 180.0) * 127.0 / 360.0;
+    sleep(0.1);
 	
 	MIKMutableMIDIControlChangeCommand *yawCommand = [[MIKMutableMIDIControlChangeCommand alloc] init];
 	yawCommand.channel = 10; // Or whatever channel you need
 	yawCommand.controllerNumber = 3;
 	yawCommand.controllerValue = (yaw + 180.0) * 127.0 / 360.0;
+    sleep(0.1);
 	
 	// Now send them to a destination
 	MIKMIDIDestinationEndpoint *destination = [[self.MIDIDevice.entities valueForKeyPath:@"@unionOfArrays.destinations"] firstObject];

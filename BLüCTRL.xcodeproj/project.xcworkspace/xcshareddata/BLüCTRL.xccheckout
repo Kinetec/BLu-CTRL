@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6288818D-83ED-4A2F-9B8A-D44E33569EE9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BLüCTRL</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5C0CF757CB920F47AEB6035D536B7F1E2BB0C345</key>
+		<string>https://www.github.com/mixedinkey-opensource/MIKMIDI.git</string>
+		<key>C56116CE1F544724135645112AF9C1FE304C1497</key>
+		<string>https://github.com/Kinetec/BLu-CTRL.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BLüCTRL.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5C0CF757CB920F47AEB6035D536B7F1E2BB0C345</key>
+		<string>../..MIKMIDI</string>
+		<key>C56116CE1F544724135645112AF9C1FE304C1497</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Kinetec/BLu-CTRL.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C56116CE1F544724135645112AF9C1FE304C1497</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C56116CE1F544724135645112AF9C1FE304C1497</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BLu%CC%88CTRL</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5C0CF757CB920F47AEB6035D536B7F1E2BB0C345</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BLu%CC%88CTRLMIKMIDI</string>
+		</dict>
+	</array>
+</dict>
+</plist>

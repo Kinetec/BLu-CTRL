@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B0A35C31ADDC2B1008D880C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0A35C21ADDC2B1008D880C /* Foundation.framework */; };
+		0B3B357C1AE98D1C00403767 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B357B1AE98D1C00403767 /* ButtonViewController.m */; };
 		0B4F23FE1ADDB43D0080DCCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4F23FD1ADDB43D0080DCCD /* main.m */; };
 		0B4F24011ADDB43D0080DCCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4F24001ADDB43D0080DCCD /* AppDelegate.m */; };
 		0B4F24041ADDB43D0080DCCD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4F24031ADDB43D0080DCCD /* FirstViewController.m */; };
@@ -85,6 +86,8 @@
 
 /* Begin PBXFileReference section */
 		0B0A35C21ADDC2B1008D880C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B3B357A1AE98D1C00403767 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		0B3B357B1AE98D1C00403767 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
 		0B4F23F81ADDB43D0080DCCD /* BLüCTRL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLüCTRL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4F23FC1ADDB43D0080DCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B4F23FD1ADDB43D0080DCCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,7 +108,6 @@
 		0B4F24281ADDB45D0080DCCD /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		0B4F242A1ADDB4670080DCCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B4F39B51AE0557100450AC5 /* BLüCTRL-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLüCTRL-Bridging-Header.h"; sourceTree = "<group>"; };
-		0B4F39BE1AE056C300450AC5 /* BLüCTRL-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLüCTRL-Bridging-Header.h"; sourceTree = "<group>"; };
 		0B4F39BF1AE0570B00450AC5 /* BLüCTRLTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLüCTRLTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		0B688B151ADDE80D00C3FF95 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
 		0B75DE111AE149CF000003F2 /* arrowsarrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowsarrows.png; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		0B75DE131AE149CF000003F2 /* yawyawyaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yawyawyaw.png; sourceTree = "<group>"; };
 		0B75DE141AE149CF000003F2 /* BLüNUARL_CTRL_Launch_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLüNUARL_CTRL_Launch_2.png"; sourceTree = "<group>"; };
 		0B75DE151AE149CF000003F2 /* BLüNUARL_CTRL2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLüNUARL_CTRL2.png"; sourceTree = "<group>"; };
+		0BED63D01AE962F40044A94B /* BLüCTRL-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLüCTRL-Bridging-Header.h"; sourceTree = "<group>"; };
 		9D04B4831AE0719D0087DFE7 /* MIDIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIController.h; sourceTree = "<group>"; };
 		9D04B4841AE0719D0087DFE7 /* MIDIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIController.m; sourceTree = "<group>"; };
 		9D54FE471AE06DCB00DA516B /* MIKMIDI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MIKMIDI.xcodeproj; path = MIKMIDI/Framework/MIKMIDI.xcodeproj; sourceTree = "<group>"; };
@@ -146,6 +149,7 @@
 		0B4F23EF1ADDB43D0080DCCD = {
 			isa = PBXGroup;
 			children = (
+				0BED63D01AE962F40044A94B /* BLüCTRL-Bridging-Header.h */,
 				0B688B151ADDE80D00C3FF95 /* CoreAudioKit.framework */,
 				0B0A35C21ADDC2B1008D880C /* Foundation.framework */,
 				0B4F242A1ADDB4670080DCCD /* UIKit.framework */,
@@ -172,11 +176,12 @@
 		0B4F23FA1ADDB43D0080DCCD /* BLüCTRL */ = {
 			isa = PBXGroup;
 			children = (
-				0B4F39BE1AE056C300450AC5 /* BLüCTRL-Bridging-Header.h */,
 				0B4F23FF1ADDB43D0080DCCD /* AppDelegate.h */,
 				0B4F24001ADDB43D0080DCCD /* AppDelegate.m */,
 				0B4F24021ADDB43D0080DCCD /* FirstViewController.h */,
 				0B4F24031ADDB43D0080DCCD /* FirstViewController.m */,
+				0B3B357A1AE98D1C00403767 /* ButtonViewController.h */,
+				0B3B357B1AE98D1C00403767 /* ButtonViewController.m */,
 				0B4F24051ADDB43D0080DCCD /* SecondViewController.h */,
 				0B4F24061ADDB43D0080DCCD /* SecondViewController.m */,
 				9D04B4831AE0719D0087DFE7 /* MIDIController.h */,
@@ -372,6 +377,7 @@
 				0B4F24011ADDB43D0080DCCD /* AppDelegate.m in Sources */,
 				9D04B4851AE0719D0087DFE7 /* MIDIController.m in Sources */,
 				0B4F24041ADDB43D0080DCCD /* FirstViewController.m in Sources */,
+				0B3B357C1AE98D1C00403767 /* ButtonViewController.m in Sources */,
 				0B4F23FE1ADDB43D0080DCCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
